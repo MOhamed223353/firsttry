@@ -1,0 +1,154 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body
+{
+    background-color:#1e202b
+}
+.container-fluid
+{
+    align-items: center !important;
+}
+.navbar {
+    height: 150px;
+    background-color: #1e202b !important;
+}
+
+.navbar-nav a {
+    color: white !important;
+}
+
+.navbar-nav li {
+    padding: 0 25px;
+}
+
+.logo a {
+    font-size: 16px !important;
+}
+
+.logo small {
+    font-size: 12px !important;
+}
+
+.itemborder {
+    border: #0275d8 solid 3px;
+    border-radius: 40px;
+}
+
+
+.nav-item:hover {
+    border: #0275d8 solid 3px !important;
+    border-radius: 40px !important;
+    color: #0275d8 !important;
+}
+
+.nav-item a {
+    font-size: 14px;
+}
+
+.btnfind {
+    border: transparent;
+    border-radius: 40px;
+    padding: 12px 35px;
+    margin-top: 4px;
+}
+.background
+{
+    position: absolute;
+    top: 120px;
+    z-index: 0;
+}
+
+.search {
+    position: relative;
+}
+#searchInput, #subscribeInput
+{
+    background-color:#1e202b ;
+    color: white !important;
+
+}
+
+.find {
+    position: absolute;
+    top: 0;
+    right: 5px;
+}
+
+.firstsection {
+    background-color: #2d303d;
+}
+
+.secondsection {
+    background-color: #323544;
+    height: 100% !important;
+}
+.forecast
+{
+    height: auto !important;
+}
+
+.secondsection h1 {
+    font-size: 700%;
+}
+
+.firstsection1 {
+    background-color: #222530;
+}
+
+.secondsection1 {
+    background-color: #262936;
+    height: 100% !important;
+
+
+
+}
+
+.subscribeinput,
+.search1 {
+    width: 800px;
+}
+
+.btnsubscribe {
+    border: transparent;
+    border-radius: 40px;
+    padding: 13px 35px;
+    margin-top: 4px;
+}
+
+.search1 {
+    position: relative;
+}
+
+.subscribe {
+    position: absolute;
+    top: 0;
+    right: 5px;
+}
+
+.lastsection {
+    background-color: #262936;
+    height: 200px;
+}
+
+.lastsection i {
+    border-radius: 50% !important;
+    padding: 10px 10px !important;
+    background-color: #1e202b;
+    color: #0275d8 !important;
+}
+
+
+.fa-facebook-f {
+    padding: 10px 15px !important;
+}
+
+.lastsection i:hover
+{
+color: white !important ;
+background-color: #0275d8;
+}
